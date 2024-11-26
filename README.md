@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NABE AGENCE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>NABE AGENCE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="section">
+        <h2>Bienvenue chez NABE AGENCE</h2>
+        <p>Nous offrons des solutions sur mesure pour notre entreprise.Decouvrer nos service adapter à vos besoin.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Vente et création des affiche et logo</li>
+            <li>Formation informatique</li>
+            <li>Marketing sur les réseaux sociaux</li>
+            <li>Design graphique</li>
+            <li>Nente
+        </ul>
+    </section>
+
+    <section id="about" class="section">
+        <h2>À propos de NABE AGENCE</h2>
+        <p>NABE AGENCE est une agence dynamique qui se spécialise dans la formation, la ventre, de confection de logo, de carte de visite, et création d'affiche, Des formation en informatique avec des prof caler, en partenaria avec ONG CHEFAIDE
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contactez-nous</h2>
+        <p>Email: sekoudjafodenabe735@gmail.com</p>
+        <p>Téléphone: 224 625-28-74-94</p>
+        <p>Adresse: Kiroty  , Nongo,</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NABE AGENCE - Tous droits réservés</p>
+    </footer>
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+</body>
+</html>
